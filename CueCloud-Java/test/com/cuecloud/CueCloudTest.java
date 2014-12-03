@@ -24,6 +24,7 @@ public class CueCloudTest {
     
     private static final String TEST_API_KEY ="42cef2c79a984e34";
     private static final String TEST_API_PASS="2152b0f3cc1649fb";
+    
     private CueCloud cueCloud;
     
     public CueCloudTest() {
