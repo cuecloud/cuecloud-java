@@ -17,7 +17,8 @@ import javax.crypto.spec.SecretKeySpec;
 import org.apache.commons.codec.binary.Hex;
 
 /**
- *
+ * This class wraps CueCloud API, providing public methods to perform common functions with the API.
+ * 
  * @author nmvictor 
  * 
  */
