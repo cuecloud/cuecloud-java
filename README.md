@@ -26,7 +26,8 @@ Once you have the `API KEY` and `API PASSWORD`, Create or Open the target Projec
 
     private static final String YOUR_API_KEY ="your.cuecloud.api.key";
     private static final String YOUR_API_PASS="your.cuecloud.api.pass";
-    try {
+    private CueCloud cueCloud;
+        try {
             cueCloud = new CueCloud(YOUR_API_KEY, YOUR_API_PASS);
         } catch (CueCloud.CueCloudException ex) {
             ex.printStackTrace();
@@ -38,7 +39,8 @@ For developers or Individuals hosting cuecloud server instance locally for devel
 
     private static final String YOUR_API_KEY ="your.cuecloud.api.key";
     private static final String YOUR_API_PASS="your.cuecloud.api.pass";
-    try {
+    private CueCloud cueCloud;
+        try {
             cueCloud = new CueCloud(YOUR_API_KEY, YOUR_API_PASS, "http://localhost");
         } catch (CueCloud.CueCloudException ex) {
             ex.printStackTrace();
