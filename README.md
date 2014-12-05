@@ -8,7 +8,7 @@ Dependancies
 1. [Apache Codecs Library](http://commons.apache.org/proper/commons-codec/)
 2. [FlexJson Library](http://flexjson.sourceforge.net/)
 
-These dependancies are pre-packaged in the library available in the links below. However, it is advisable that you use the versions from the  above link as they are guaranteed to be the most recent versions.
+These dependancies are pre-packaged in the library available in the links below. However, it is advisable that you use the versions from the  above links as they are guaranteed to be the most recent versions.
 
 Initial Setup
 ---------
