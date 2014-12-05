@@ -45,7 +45,7 @@ For developers or Individuals hosting cuecloud server instance locally for devel
             Logger.getLogger(CueCloudTest.class.getName()).log(Level.SEVERE, ex.getMessage(),ex);
         }
         
-Once you have a CueCloud Java Object, you can make your target method calls. Be sure to catch CueCloudExcepton where necessary.
+Once you have a CueCloud Java Object, you can make your target method calls. Be sure to catch `CueCloudExcepton` if thrown by the target method.
 
     cuecloud.validateUser();
     
