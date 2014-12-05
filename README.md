@@ -1,5 +1,5 @@
-cuecloud-java
-=============
+cuecloud API - Java Client Library
+==================================
 
 This Project provides a CueCloud API wrapper for Java.
 
