@@ -30,8 +30,8 @@ Once you have the `API KEY` and `API PASSWORD`, Create or Open the target Projec
         try {
             cueCloud = new CueCloud(YOUR_API_KEY, YOUR_API_PASS);
         } catch (CueCloud.CueCloudException ex) {
-            ex.printStackTrace();
-            Logger.getLogger(CueCloudTest.class.getName()).log(Level.SEVERE, ex.getMessage(),ex);
+            Logger.getLogger(CueCloudTest.class.getName()).log(Level.SEVERE, ""+ex.getMessage(),ex);
+            // TODO: Tell user about the error in a friendly manner
         }
 
 
@@ -43,8 +43,8 @@ For developers or Individuals hosting cuecloud server instance locally for devel
         try {
             cueCloud = new CueCloud(YOUR_API_KEY, YOUR_API_PASS, "http://localhost");
         } catch (CueCloud.CueCloudException ex) {
-            ex.printStackTrace();
-            Logger.getLogger(CueCloudTest.class.getName()).log(Level.SEVERE, ex.getMessage(),ex);
+            Logger.getLogger(CueCloudTest.class.getName()).log(Level.SEVERE, ""+ex.getMessage(),ex);
+            // TODO: Tell user about the error in a friendly manner
         }
         
 Once you have a CueCloud Java Object, you can make your target method calls. Be sure to catch `CueCloudExcepton` if thrown by the target method.
